@@ -1,1 +1,1 @@
-sys.exit
+RUN apt install -y ffmpeg
