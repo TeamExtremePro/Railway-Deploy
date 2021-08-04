@@ -1,1 +1,1 @@
-apt install -y ffmpeg
+bash pkill python3 && python3 -m userbot
