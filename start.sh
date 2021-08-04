@@ -1,1 +1,2 @@
-apt-get install -y ffmpeg python3-pip opus-tools
+apt-get update && apt-get upgrade -y
+apt-get install -y ffmpeg 
