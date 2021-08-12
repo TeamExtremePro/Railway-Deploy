@@ -4,4 +4,4 @@ RUN pip install -r https://raw.githubusercontent.com/Andencento/Andencento/main/
 RUN git clone https://github.com/Andencento/Andencento.git /root/Andencento
 WORKDIR /root/Andencento
 COPY . .
-CMD ["python3","-m","userbot"]
+CMD ["bash", "start.sh"]
