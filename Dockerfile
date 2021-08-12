@@ -1,6 +1,7 @@
 FROM python:latest
+RUN git clone https://github.com/Andencento/Andencento.git /root/Andencento
+WORKDIR /root/Andencento
 ENV PYTHONUNBUFFERED=1
 RUN pip install -r https://raw.githubusercontent.com/Andencento/Andencento/main/requirements.txt
-RUN pip3 install -U Andencento
 COPY . .
-CMD ["bash", "start.sh"]
+CMD ["python3","-m","userbot"]
