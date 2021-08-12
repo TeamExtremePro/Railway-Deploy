@@ -1,1 +1,1 @@
-bash pkill python3 && python3 -m userbot
+python3 -m userbot
